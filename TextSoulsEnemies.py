@@ -30,3 +30,10 @@ class bell_gargoyle:
     defense = 12
     souls_count = 8000
 
+class havels_knight:
+    "havel stats"
+    name = "Havel's Knight"
+    life_points = 2000
+    damage = 450
+    defense = 200
+    souls_count = 5000
