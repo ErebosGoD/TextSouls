@@ -48,4 +48,13 @@ class bandit:
     gold = 90
     souls = 0
 
+class deprived:
+    "deprived stats"
+    level = 1
+    strength = 5
+    vitality = 50
+    endurance = 5
+    dexterity = 5
+    gold = 0
+    souls = 0
 
