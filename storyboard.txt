@@ -1,0 +1,17 @@
+location list:
+1.Undead Asylum
+2.Firelink
+2.1 Firelink Ruins
+2.1.1 Havel Fight
+3.Undead Parish
+4.Church in Undead Parish
+5.Bell Tower
+6.Undead Parish (at Blacksmith Andre of Astora)
+7.Darkroot Garden
+8.Darkroot Basin
+9.Firelink Shrine (lower level)
+10.Valley of Drakes
+11. Blighttown Upper level
+12. Blighttown Lower Level
+13. Quelaags Domain
+14. Bell Room
