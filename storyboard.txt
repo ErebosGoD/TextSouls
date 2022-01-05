@@ -3,6 +3,8 @@ location list:
 2.Firelink
 2.1 Firelink Ruins
 2.1.1 Havel Fight
+2.2 Ridge after Firelink
+2.2.1 Hollow Soldier Fight #1
 3.Undead Parish
 4.Church in Undead Parish
 5.Bell Tower

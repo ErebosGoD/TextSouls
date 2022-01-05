@@ -156,7 +156,7 @@ def concerned_knight_dialog():
 
 def  ridgeAfterFirelink():
     time.sleep(2)
-    print("You arive at the ridge")
+    print("You arrive at the ridge")
     time.sleep(2)
     print("Some parts look very narrow...")
     time.sleep(2)
