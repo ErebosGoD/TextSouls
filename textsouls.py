@@ -1,10 +1,9 @@
 import time
 import random
-from typing import Text
-import TextSoulsClasses
-import TextSoulsEnemies
-import TextSoulsWeapons
-import TextSoulsItems
+import textsoulsclasses
+import textsoulsenemies
+import textsoulsweapons
+import textsoulsitems
 
 timerBetweenLines2sec = time.sleep(2)
 
@@ -46,49 +45,49 @@ def character_creation():
     print("Please type one of the above")
     class_picked = input()
     if class_picked.lower() == "wanderer":
-        adventurer.level = TextSoulsClasses.wanderer.level
-        adventurer.strength = TextSoulsClasses.wanderer.strength
-        adventurer.vitality = TextSoulsClasses.wanderer.vitality
-        adventurer.endurance = TextSoulsClasses.wanderer.endurance
-        adventurer.dexterity = TextSoulsClasses.wanderer.dexterity
-        adventurer.gold = TextSoulsClasses.wanderer.gold
-        adventurer.souls = TextSoulsClasses.wanderer.souls
+        adventurer.level = textsoulsclasses.wanderer.level
+        adventurer.strength = textsoulsclasses.wanderer.strength
+        adventurer.vitality = textsoulsclasses.wanderer.vitality
+        adventurer.endurance = textsoulsclasses.wanderer.endurance
+        adventurer.dexterity = textsoulsclasses.wanderer.dexterity
+        adventurer.gold = textsoulsclasses.wanderer.gold
+        adventurer.souls = textsoulsclasses.wanderer.souls
         firelink_shrine()
     elif class_picked.lower() == "knight":
-        adventurer.level = TextSoulsClasses.knight.level
-        adventurer.strength = TextSoulsClasses.knight.strength
-        adventurer.vitality = TextSoulsClasses.knight.vitality
-        adventurer.endurance = TextSoulsClasses.knight.endurance
-        adventurer.dexterity = TextSoulsClasses.knight.dexterity
-        adventurer.gold = TextSoulsClasses.knight.gold
-        adventurer.souls = TextSoulsClasses.knight.souls
+        adventurer.level = textsoulsclasses.knight.level
+        adventurer.strength = textsoulsclasses.knight.strength
+        adventurer.vitality = textsoulsclasses.knight.vitality
+        adventurer.endurance = textsoulsclasses.knight.endurance
+        adventurer.dexterity = textsoulsclasses.knight.dexterity
+        adventurer.gold = textsoulsclasses.knight.gold
+        adventurer.souls = textsoulsclasses.knight.souls
         firelink_shrine()
     elif class_picked.lower() == "thief":
-        adventurer.level = TextSoulsClasses.thief.level
-        adventurer.strength = TextSoulsClasses.thief.strength
-        adventurer.vitality = TextSoulsClasses.thief.vitality
-        adventurer.endurance = TextSoulsClasses.thief.endurance
-        adventurer.dexterity = TextSoulsClasses.thief.dexterity
-        adventurer.gold = TextSoulsClasses.thief.gold
-        adventurer.souls = TextSoulsClasses.thief.souls
+        adventurer.level = textsoulsclasses.thief.level
+        adventurer.strength = textsoulsclasses.thief.strength
+        adventurer.vitality = textsoulsclasses.thief.vitality
+        adventurer.endurance = textsoulsclasses.thief.endurance
+        adventurer.dexterity = textsoulsclasses.thief.dexterity
+        adventurer.gold = textsoulsclasses.thief.gold
+        adventurer.souls = textsoulsclasses.thief.souls
         firelink_shrine()
     elif class_picked.lower() == "bandit":
-        adventurer.level = TextSoulsClasses.bandit.level
-        adventurer.strength = TextSoulsClasses.bandit.strength
-        adventurer.vitality = TextSoulsClasses.bandit.vitality
-        adventurer.endurance = TextSoulsClasses.bandit.endurance
-        adventurer.dexterity = TextSoulsClasses.bandit.dexterity
-        adventurer.gold = TextSoulsClasses.bandit.gold
-        adventurer.souls = TextSoulsClasses.bandit.souls
+        adventurer.level = textsoulsclasses.bandit.level
+        adventurer.strength = textsoulsclasses.bandit.strength
+        adventurer.vitality = textsoulsclasses.bandit.vitality
+        adventurer.endurance = textsoulsclasses.bandit.endurance
+        adventurer.dexterity = textsoulsclasses.bandit.dexterity
+        adventurer.gold = textsoulsclasses.bandit.gold
+        adventurer.souls = textsoulsclasses.bandit.souls
         firelink_shrine()
     elif class_picked.lower() == "warrior":
-        adventurer.level = TextSoulsClasses.warrior.level
-        adventurer.strength = TextSoulsClasses.warrior.strength
-        adventurer.vitality = TextSoulsClasses.warrior.vitality
-        adventurer.endurance = TextSoulsClasses.warrior.endurance
-        adventurer.dexterity = TextSoulsClasses.warrior.dexterity
-        adventurer.gold = TextSoulsClasses.warrior.gold
-        adventurer.souls = TextSoulsClasses.warrior.souls
+        adventurer.level = textsoulsclasses.warrior.level
+        adventurer.strength = textsoulsclasses.warrior.strength
+        adventurer.vitality = textsoulsclasses.warrior.vitality
+        adventurer.endurance = textsoulsclasses.warrior.endurance
+        adventurer.dexterity = textsoulsclasses.warrior.dexterity
+        adventurer.gold = textsoulsclasses.warrior.gold
+        adventurer.souls = textsoulsclasses.warrior.souls
         firelink_shrine()
     else :
         game_over()
